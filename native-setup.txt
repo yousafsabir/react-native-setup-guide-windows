@@ -1,0 +1,21 @@
+(1)- Setting Java and JAVA_HOME
+ > Download required JDK version in .exe and install it
+ > go to environmental variable and click on new in User variables
+ > set variable name to JAVA_HOME and its value to this path C:\Program Files\Java\jdk-11.0.15.1
+ > Now click on path and edit button, there add new and paste the bin directory path like C:\Program Files\Java\jdk-11.0.15.1\bin
+
+
+(2)- React-Native Cli
+ > npm i -g react-native-cli
+
+(3)- Android studio
+ > install it
+ > go to sdk manager from more options
+ > set things according to react-native lates guide
+ > make new variable with name ANDROID_HOME and value C:\Users\${username}\AppData\Local\Android\Sdk 
+ > Now add C:\Users\${username}\AppData\Local\Android\Sdk\platform-tools to path
+
+(4)- create native-project
+ > npx react-native init project_name
+ > start by npm run start
+ > also run npm run android for android build
